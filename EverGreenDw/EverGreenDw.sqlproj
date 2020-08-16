@@ -60,8 +60,50 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="StoredProcedure\Populate_ChapterDim.sql" />
-    <Build Include="Tables\Chapter_Dim.sql" />
-    <Build Include="Tables\stage_civicrm_option_value.sql" />
+    <Build Include="Tables\dbo.Address_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Campaign_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Campaign_Status_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Campaign_Type_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Chapter_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Chapter_History.Table.sql" />
+    <Build Include="Tables\dbo.Contact_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Contribution_Fact.Table.sql" />
+    <Build Include="Tables\dbo.Contribution_Type_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Date_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Membership_Fact.Table.sql" />
+    <Build Include="Tables\dbo.Membership_Renewal_History.Table.sql" />
+    <Build Include="Tables\dbo.Membership_Status_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Membership_Type_Dim.Table.sql" />
+    <Build Include="Tables\dbo.Membership_Type_History.Table.sql" />
+    <Build Include="Tables\dbo.stage_a_report_contributions.Table.sql" />
+    <Build Include="Tables\dbo.stage_additional_membership_info.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_address.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_campaign.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_contact.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_contribution.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_contribution_recur.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_country.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_email.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_financial_type.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_location_type.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_membership.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_membership_status.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_membership_type.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_option_group.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_option_value.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_phone.Table.sql" />
+    <Build Include="Tables\dbo.stage_civicrm_state_province.Table.sql" />
+    <Build Include="StoredProcedure\dbo.InsDate_DimYearly.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Address_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Campaign_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Campaign_Status_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Campaign_Type_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_ChapterDim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Contact_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Contribution_Fact.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Contribution_Type_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Membership_Fact.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Membership_Status_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Membership_Type_Dim.StoredProcedure.sql" />
   </ItemGroup>
 </Project>
