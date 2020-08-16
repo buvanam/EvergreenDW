@@ -62,5 +62,6 @@
   <ItemGroup>
     <Build Include="StoredProcedure\Populate_ChapterDim.sql" />
     <Build Include="Tables\Chapter_Dim.sql" />
+    <Build Include="Tables\stage_civicrm_option_value.sql" />
   </ItemGroup>
 </Project>
