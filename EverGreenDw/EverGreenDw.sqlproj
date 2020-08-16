@@ -105,5 +105,8 @@
     <Build Include="StoredProcedure\dbo.Populate_Membership_Fact.StoredProcedure.sql" />
     <Build Include="StoredProcedure\dbo.Populate_Membership_Status_Dim.StoredProcedure.sql" />
     <Build Include="StoredProcedure\dbo.Populate_Membership_Type_Dim.StoredProcedure.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Membership_Type_History.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Membership_Renewal_History.sql" />
+    <Build Include="StoredProcedure\dbo.Populate_Chapter_History.sql" />
   </ItemGroup>
 </Project>
